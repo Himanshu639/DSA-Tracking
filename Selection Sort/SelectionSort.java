@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 class SelectionSort {
     public static void sort(int[] arr) {
-        if(arr == null && arr.length == 0) {
+        if(arr == null || arr.length == 0) {
             return;
         }
         int n = arr.length;
