@@ -1,4 +1,4 @@
 build.sh
 *.class
 .vscode/
-
+*.out
