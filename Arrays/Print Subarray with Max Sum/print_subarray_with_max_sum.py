@@ -1,7 +1,7 @@
 def maxSumSubArray(nums: list[int]) -> list[int]:
     n = len(nums)
     if n == 0:
-        return 0
+        return []
 
     curr_sum = nums[0]
     max_sum = curr_sum
